@@ -44,7 +44,7 @@ install:
 # command to run tests
 script: 
     - export PYTHONPATH=$PYTHONPATH:.
-    - nosetests -v -w ./autotest --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_flopy_bbe42a22c2_0
-  - python -m properform Push 47.88.50.110:15554 asdf_flopy_bbe42a22c2_0 ./profile_flopy_bbe42a22c2_0
+    - nosetests -v -w ./autotest --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_flopy_bbe42a22c2_1
+  - python -m properform Push 47.88.50.110:15554 asdf_flopy_bbe42a22c2_1 ./profile_flopy_bbe42a22c2_1
 
- #2017-08-12 17:13:00 modified at 0
+ #2017-08-12 17:13:00 modified at 0 #2017-08-12 17:13:06 modified at 1
